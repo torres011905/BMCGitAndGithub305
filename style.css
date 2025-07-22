@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.portfolio-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  width: 350px;
+  text-align: center;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.section,
+.course {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #555;
+}
+
+.about h2 {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #333;
+}
+
+.about p {
+  font-size: 15px;
+  color: #666;
+  margin-top: 10px;
+  text-align: justify;
+}
